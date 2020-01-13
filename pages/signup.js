@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import SignUpForm from "../components/signupform.js";
 
 const Signup = () => (
   <div>
@@ -8,35 +9,9 @@ const Signup = () => (
     </Head>
 
     <div>
-      <h1 className="title">Retroflect Sign Up</h1>
+      <h2 className="title">Retroflect Sign Up</h2>
     </div>
-    <form>
-      <label>
-        First Name:&nbsp;&nbsp;
-        <input type="text" name="firstname" />
-      </label>
-      <br />
-      <br />
-      <label>
-        Last Name:&nbsp;&nbsp;
-        <input type="text" name="lastname" />
-      </label>
-      <br />
-      <br />
-      <label>
-        Email:&nbsp;&nbsp;
-        <input type="text" name="email" />
-      </label>
-      <br />
-      <br />
-      <label>
-        Password:&nbsp;&nbsp;
-        <input type="password" name="password" />
-      </label>
-      <br />
-      <br />
-      <input type="submit" value="Sign Up" />
-    </form>
+    <SignUpForm />
   </div>
 );
 

@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import SignInForm from "../components/signinform.js";
 
 const Signin = () => (
   <div>
@@ -7,24 +8,8 @@ const Signin = () => (
       <title>Sign In</title>
     </Head>
 
-    <div>
-      <h1 className="title">Retroflect Sign In</h1>
-    </div>
-    <form>
-      <label>
-        Email:&nbsp;&nbsp;
-        <input type="text" name="email" />
-      </label>
-      <br />
-      <br />
-      <label>
-        Password:&nbsp;&nbsp;
-        <input type="password" name="password" />
-      </label>
-      <br />
-      <br />
-      <input type="submit" value="Sign In" />
-    </form>
+    <h2>Sign In</h2>
+    <SignInForm />
   </div>
 );
 

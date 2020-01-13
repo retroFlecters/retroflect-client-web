@@ -16,9 +16,27 @@ npx create-next-app
 
 The `package.json` contains a list of up-to-date scripts.
 
+### Getting started
+
 ```
 yarn dev # start dev server on port 3000
+
 yarn lint # lint and auto-format files, please run before each commit.
+```
+
+### Developing
+
+```
+# Don't commit directly to master, create a branch, push to GitHub and open a pull request.
+git checkout -b feature/super-cool-feature
+
+# *make changes to code, add, lint, commit*, when ready push to GitHub
+git push -u origin feature/super-cool-feature # first push to GitHub
+git push # subsequent pushes
+
+# While working on a branch, periodically sync with master to keep up-to-date and avoid monster merges.
+git pull origin master
+# then *follow prompts to perform merge commit*
 ```
 
 ## User Stories

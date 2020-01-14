@@ -26,6 +26,9 @@ yarn lint # lint and auto-format files, please run before each commit.
 
 ### As a visitor
 
+[] I want to see the app title,  
+so that I know what app I am using.
+
 [] I want to view a sign in form,  
 so I can attempt to sign in.
 
@@ -48,6 +51,9 @@ Case: Visitor successfully signs in
 so I can view my secure user specific data.
 
 ### As an authenticated user
+
+[] I want to see the app title,  
+so that I know what app I am using.
 
 [] I want to click a sign out link,  
 so that my account is not accessible by anyone else.

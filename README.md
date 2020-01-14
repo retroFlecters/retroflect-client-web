@@ -64,3 +64,34 @@ so that I can tell who I'm logged in as.
 Case: Authenticated user signs out  
 [] I want to be redirected to "/" route,  
 so that I can login again or as another user.
+
+[] I want to see a dated entry  
+so that I know which dates reflection I am viewing.
+
+Within: an entry  
+[] I want to see a **diary** section with a text input box  
+so that I free-form reflect for that date.
+
+Within: an entry  
+[] I want to see a **moods** section  
+so that I reflect on how I am feeling.
+
+Within: the **moods** section  
+[] I want to see sliders between positive and negative moods, scale 0-100
+so that I can reflect on my mood for that date.
+
+Within: the **moods** section  
+[] I want an emoji to represent each moods value when 0-49 or 50-100
+so that I can view my moods graphically for that date.
+
+Within: the **moods** section
+[] I want an emoji to represent each moods value when 0-49 or 50-100
+so that I can view my moods graphically for that date.
+
+Within: an entry  
+[] I want to see a **questions** section  
+so that I view a list of self reflection questions
+
+Within: the **questions** section  
+[] I want to see a list of questions each with a corresponding answer text input  
+so that I can be provided be guided through my self reflection

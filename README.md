@@ -26,6 +26,10 @@ yarn lint # lint and auto-format files, please run before each commit.
 
 ### As a visitor
 
+Case: Visit "/" route  
+[] I want be redirected to "/signin" route,  
+so I can view the sign in page
+
 [] I want to see the app title,  
 so that I know what app I am using.
 

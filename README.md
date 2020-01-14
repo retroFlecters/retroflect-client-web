@@ -30,21 +30,21 @@ Case: Visit "/" route
 [] I want be redirected to "/signin" route,  
 so I can view the sign in page
 
-[] I want to see the app title,  
+[x] I want to see the app title,  
 so that I know what app I am using.
 
-[] I want to view a sign in form,  
+[x] I want to view a sign in form,  
 so I can attempt to sign in.
 
-[] I want to view a sign up form,  
+[x] I want to view a sign up form,  
 so I can attempt to create an account.
 
 Case: Visitor viewing the sign in form page  
-[] I want to see a link to the sign up form,  
+[x] I want to see a link to the sign up form,  
 so I can view the sign up form.
 
 Case: Visitor viewing the sign up form page  
-[] I want to see a link to the sign in form,  
+[x] I want to see a link to the sign in form,  
 so I can view the sign in form.
 
 [] I want to sign up with an first name, last name, email and password,  
@@ -91,7 +91,7 @@ Within: the **moods** section
 [] I want an emoji to represent each moods value when 0-49 or 50-100  
 so that I can view my moods graphically for that date.
 
-Within: the **moods** section
+Within: the **moods** section  
 [] I want an emoji to represent each moods value when 0-49 or 50-100  
 so that I can view my moods graphically for that date.
 

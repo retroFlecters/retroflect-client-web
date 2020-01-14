@@ -7,11 +7,15 @@ const Signup = () => (
     <Head>
       <title>Sign Up</title>
     </Head>
-
     <div>
-      <h2 className="title">Retroflect Sign Up</h2>
+      <h2>Retroflect Sign Up</h2>
     </div>
     <SignUpForm />
+    <br />
+    <br />
+    Or, if you already have an account: <a href="/signin">Sign In</a>
+    <br />
+    <br />
   </div>
 );
 

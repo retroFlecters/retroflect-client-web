@@ -34,53 +34,55 @@ class SignUpForm extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
-        <label>
-          First Name:&nbsp;
-          <input
-            type="text"
-            name="firstname"
-            value={this.state.firstname}
-            onChange={this.handleChange}
-          />
-        </label>
-        <br />
-        <br />
-        <label>
-          Last Name:&nbsp;
-          <input
-            type="text"
-            name="lastname"
-            value={this.state.lastname}
-            onChange={this.handleChange}
-          />
-        </label>
-        <br />
-        <br />
-        <label>
-          Email:&nbsp;
-          <input
-            type="text"
-            name="email"
-            value={this.state.email}
-            onChange={this.handleChange}
-          />
-        </label>
-        <br />
-        <br />
-        <label>
-          Password:&nbsp;
-          <input
-            type="password"
-            name="password"
-            value={this.state.password}
-            onChange={this.handleChange}
-          />
-        </label>
-        <br />
-        <br />
-        <input type="submit" value="Sign In" />
-      </form>
+      <div className="formholder">
+        <form onSubmit={this.handleSubmit}>
+          <label>
+            First Name:&nbsp;
+            <input
+              type="text"
+              name="firstname"
+              value={this.state.firstname}
+              onChange={this.handleChange}
+            />
+          </label>
+          <br />
+          <br />
+          <label>
+            Last Name:&nbsp;
+            <input
+              type="text"
+              name="lastname"
+              value={this.state.lastname}
+              onChange={this.handleChange}
+            />
+          </label>
+          <br />
+          <br />
+          <label>
+            Email:&nbsp;
+            <input
+              type="text"
+              name="email"
+              value={this.state.email}
+              onChange={this.handleChange}
+            />
+          </label>
+          <br />
+          <br />
+          <label>
+            Password:&nbsp;
+            <input
+              type="password"
+              name="password"
+              value={this.state.password}
+              onChange={this.handleChange}
+            />
+          </label>
+          <br />
+          <br />
+          <input type="submit" value="Sign In" />
+        </form>
+      </div>
     );
   }
 }

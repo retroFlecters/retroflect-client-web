@@ -30,7 +30,7 @@ yarn lint # lint and auto-format files, please run before each commit.
 so I can attempt to sign in.
 
 [] I want to view a sign up form,  
-so I can create an account.
+so I can attempt to create an account.
 
 Case: Visitor to sign in form page  
 [] I want to see a link to the sign up form,  

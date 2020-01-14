@@ -22,7 +22,7 @@ yarn dev # start dev server on port 3000
 yarn lint # lint and auto-format files, please run before each commit.
 ```
 
-## User Stories
+## User Stories / Product Backlog
 
 ### As a visitor
 
@@ -32,10 +32,25 @@ so I can attempt to sign in.
 [] I want to view a sign up form,
 so I can create an account.
 
-[] I want to sign in with a registered email and password
+Case: Visitor to sign in form page
+[] I want to see a link to the sign up form,
+so I can view the sign up form.
+
+Case: Visitor to sign up form page
+[] I want to see a link to the sign in form,
+so I can view the sign in form.
+
+[] I want to sign in with a registered email and password,
 so I can become an authenticated user.
 
 ### As an authenticated user
 
 [] I want to click a sign out link,
 so that my account is not accessible by anyone else.
+
+[] I want see my name,
+so that I can tell who I'm logged in as.
+
+Case: authenticated user signs out
+[] I want to be redirected to /index,
+so that I can login again or as another user.

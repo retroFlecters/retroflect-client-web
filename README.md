@@ -94,4 +94,4 @@ so that I view a list of self reflection questions
 
 Within: the **questions** section  
 [] I want to see a list of questions each with a corresponding answer text input  
-so that I can be provided be guided through my self reflection
+so that I can be guided through my self reflection

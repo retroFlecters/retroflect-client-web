@@ -16,13 +16,13 @@ npx create-next-app
 
 The `package.json` contains a list of up-to-date scripts.
 
+### Getting started
+
 ```
-yarn install # after each pull of the project to ensure latest dependencies are installed
 yarn dev # start dev server on port 3000
+
 yarn lint # lint and auto-format files, please run before each commit.
 ```
-
-## User Stories / Product Backlog
 
 ### As a visitor
 

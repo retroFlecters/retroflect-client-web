@@ -47,7 +47,7 @@ so I can view the sign in form.
 so I can become an authenticated user.
 
 Case: Visitor successfully signs in  
-[] I want be redirected to /index route,  
+[] I want be redirected to "/" route,  
 so I can view my secure user specific data.
 
 ### As an authenticated user
@@ -61,6 +61,6 @@ so that my account is not accessible by anyone else.
 [] I want see my name,  
 so that I can tell who I'm logged in as.
 
-Case: authenticated user signs out  
-[] I want to be redirected to /index route,  
+Case: Authenticated user signs out  
+[] I want to be redirected to "/" route,  
 so that I can login again or as another user.

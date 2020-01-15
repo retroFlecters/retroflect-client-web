@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import axios from "axios";
 
 const Entry = () => {
-  const [entries, setEntries] = useState([]);
+  const [entries, setEntries] = useState("");
+  const [username, setUsername] = useState("");
+  const [useremail, setUseremail] = useState("");
 
   axios
     .post(
@@ -13,21 +15,29 @@ const Entry = () => {
       },
       { withCredentials: true }
     )
-    .then(response => console.log(response.data))
+    .then(response => {
+      setUsername(response.data.firstName);
+      setUseremail(response.data.email);
+      console.log(response.data);
+    })
     .then(
       axios
         .get("https://retroflect.herokuapp.com/api/entries", {
           withCredentials: true
         })
-        .then(entries => {
-          setEntries(JSON.stringify(entries.data));
-          console.log(entries.data);
+        .then(response => {
+          setEntries(JSON.stringify(response.data));
+          console.log(response.data);
         })
     );
 
   return (
     <div>
       <h1>Hello</h1>
+      {username}
+      <br />
+      {useremail}
+      <br />
       {entries}
     </div>
   );
